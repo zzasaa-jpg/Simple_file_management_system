@@ -1,5 +1,7 @@
 import os
 import shutil
+import pyfiglet
+
 def file():
     #  checking the user entered file name or not 
        try:
@@ -234,12 +236,23 @@ def Help():
         6.When file creating than file doesn't existe. the file modes "r" and "r+" doesn't working.
         7.When fire the file at file mode "w" and "w+" file existing time, than re-render the file data.
         8.An append is a file data write at the end of a file line.
+        9.├───Folder_Name
+               ├───File_Name
+          How to access Floder inside a file?
+          You can access by entering folder and file name.
+          #Example -> enter the File name with extenstion: Folder_Name/File_Name.File_Extension
 
         #system point ->
         "~" The meaning of this system point system will warning you for wrong commands, invalid commands.
       
         **********Thanks for Reading**********
 """)
+
+#---------------The program starts from here.---------------
+#asccii_art
+text = "Simple File Management System!"
+ascii_art = pyfiglet.figlet_format(text, font="standard")
+print(ascii_art)
 
 print("create a folder || continue")
 print("""
