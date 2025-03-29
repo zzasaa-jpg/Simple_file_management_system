@@ -249,7 +249,7 @@ def Help():
 """)
 
 #---------------The program starts from here.---------------
-#asccii_art
+#ascii_art
 text = "Simple File Management System!"
 ascii_art = pyfiglet.figlet_format(text, font="standard")
 print(ascii_art)

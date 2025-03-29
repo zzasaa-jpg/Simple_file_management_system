@@ -1,14 +1,9 @@
 # Simple file system
 
-This system is for small file management. You run the code in Terminal or vcode (Visual Studio Code) or another editor.
+## Details of stack, third party, programming language
+- General purpose
+- shutil, pyfiglet
+- Python
 
-## Terminal commands
-
-### `Python index.py` ~ For Windows command
-### `Python3 index.py` ~ For Mac command
-
-## Visual Studio Code Commmands
-
-### `Click the play button on the top right`
-
-**Thanks for Reading.**
+## Program main functionality
+This system is for small file management system. File operations user will performance **create, delete, update, read** (CURD). Operations direct connect to **OS**.
