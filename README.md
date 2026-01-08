@@ -6,4 +6,4 @@
 - Python
 
 ## Program main functionality
-This system is for small file management system. File operations user will performance **create, delete, update, read** (CURD). Operations direct connect to **OS**.
+This system is for small file management system. File operations user will performance **create, delete, update, read** (CRUD). Operations direct connect to **OS**.
